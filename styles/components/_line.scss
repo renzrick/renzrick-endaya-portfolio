@@ -1,0 +1,63 @@
+#galleryCarousel h4 {
+    font: 24px "Questrial";
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #000000;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 50px 0;
+  }
+  
+  #galleryCarousel h4 span {
+    background: #f7f7f7;
+    padding: 10px 20px;
+  }
+
+  #galleryCarousel a h4 {
+    color: #416e34;
+  }
+  
+  #galleryCarousel h4:before {
+    content: "";
+    width: 100%;
+    left: 0;
+    top: 50%;
+    margin-top: 0;
+    position: absolute;
+    z-index: -1;
+    height: 0;
+    border-top: 1px solid black;
+  }
+
+//   MEDIA QUERIES////////////////
+@media only screen and (min-width: 280px){
+    #galleryCarousel h4{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 360px){
+    #galleryCarousel h4{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #galleryCarousel h4{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 834px){
+    #galleryCarousel h4{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    #galleryCarousel h4{
+        font-size: 28px;
+    }
+}

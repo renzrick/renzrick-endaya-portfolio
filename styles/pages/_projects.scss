@@ -1,0 +1,257 @@
+@use "../config/" as *;
+
+/* ============PROJECTS PAGE=================== */
+
+@media only screen and (min-width: 280px) {
+    .projects-title h1{
+        text-align: center;
+        margin: 30px 0 5px;
+        font-size: 24px;
+    }
+
+    .portfolio-content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .row{
+        align-items: center;
+    }
+
+    .row img{
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .row-text{
+        display: none;
+
+    }
+
+    .row-btm{
+        display: flex;
+        padding: 0 20px;
+    }
+
+    .row-btm h3{
+        font-size: 14px;
+        flex-basis: 70%;
+        max-width: 70%;
+
+    }
+
+    .row-btm a{
+        font-size: 12px;
+        align-self: flex-end;
+        text-align: right;
+        flex-basis: 30%;
+        max-width: 30%;
+        color: #416e34;
+        text-decoration: underline;
+        
+        
+        
+    }
+
+    .row-line{
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-width: 360px){
+    .projects-title h1{
+        font-size: 28px;
+    }
+    
+    .row-btm h3{
+        font-size: 16px;
+    }
+
+    .row-btm a{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .projects-title h1{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 834px) {
+    .projects-title h1{
+        font-size: 48px;
+        margin: 30px 0;
+    }
+    
+    .row{
+        background: #f7f7f7;
+        width: 559px;
+        align-items: center;
+        box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.75);
+        margin: 20px 0;
+    
+    }
+
+    .row-text{
+        display: flex;
+        flex-direction: row;
+        padding: 0 5px;
+    
+    
+    }
+    
+    .row-text ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .row-text li{
+        font-family: 'Questrial', sans-serif;
+        font-size: 20px;
+        letter-spacing:1px;
+        list-style: none;
+        color: #f7f7f7;
+        background-color: $primarycolor;
+        padding: 10px 20px;
+        margin: 20px 0 10px 10px;
+        border-radius: 30px;
+    }
+
+    .row img{
+        padding: 0;
+    }
+
+
+    .row-btm{
+        padding: 20px;
+    }
+
+    .row-btm h3{
+        font-size: 24px;
+    }
+
+    .row-btm a{
+        font-size: 20px;
+    }
+
+    .row-line{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1280px){
+    .portfolio-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 3rem;
+        width: 100%;
+        padding: 5% 3% 0;
+    }
+
+    .row{
+        margin: 0;
+    }
+
+
+    .projects-title h1{
+        font-size: 64px;
+        margin: 50px 0 0;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    
+    .portfolio-content{
+        padding: 8%;
+    }
+
+    .projects-title h1{
+        margin: 150px 0 -70px;
+    }
+
+    .row-btm h3{
+        font-size: 32px;
+    }
+
+    .row-btm a{
+        font-size: 24px;
+    }
+
+}
+
+
+@media only screen and (min-width:1920px){
+    .portfolio-content{
+        margin: 0;
+        padding: 5% 10%;
+    }
+    
+    .projects-title h1{
+        text-align: center;
+        font-size: 84px;
+        margin: 100px 0 -50px;
+    }
+    
+    .row{
+        width: 650px;
+    }
+    
+    .row img{
+        height: auto;
+        width: 930px;
+        margin: 0 auto;
+    }
+
+    .row-text li{
+        font-size: 32px;
+    }
+    
+    
+    .row-line {
+        display: none;
+    }
+    
+    .main-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        
+    }
+    
+    .row-btm{
+        display: flex;
+        padding: 10px 10px 20px;
+        align-items: center;
+    }
+    
+    .row-btm a{
+        flex-basis: 30%;
+        max-width: 30%;
+        align-self: flex-end;
+        font-size: 24px;
+        text-align: right;
+        font-size: 32px;
+    }
+    
+    .row-btm h3{
+        font-size: 24px;
+        flex-basis: 70%;
+        max-width: 70%;
+        font-size: 36px;
+    }
+
+    
+
+}
+

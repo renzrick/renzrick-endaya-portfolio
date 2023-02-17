@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.projects {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  max-height: 220px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+.projects * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.projects img {
+  opacity: 1;
+  width: 100%;
+}
+.projects:after,
+.projects:before {
+  background: #ffffff;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  content: "";
+  opacity: 0.5;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  z-index: 1;
+}
+.projects:after {
+  top: 0;
+  left: 0;
+}
+.projects:before {
+  right: 0;
+  bottom: 0;
+}
+.projects figcaption {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.projects h2,
+.projects p {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+.projects h2 {
+  padding: 0 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.projects p {
+  padding: 0 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.projects a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+}
+.projects:hover img,
+.projects.hover img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.projects:hover:after,
+.projects.hover:after,
+.projects:hover:before,
+.projects.hover:before {
+  width: 100%;
+  height: 100%;
+}
+.projects:hover figcaption h2,
+.projects.hover figcaption h2,
+.projects:hover figcaption p,
+.projects.hover figcaption p {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.projects:hover figcaption h2,
+.projects.hover figcaption h2 {
+  opacity: 1;
+}
+.projects:hover figcaption p,
+.projects.hover figcaption p {
+  opacity: 0.7;
+}
+/* Demo purposes only */
+body {
+  background-color: #212121;
+}

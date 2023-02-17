@@ -1,0 +1,400 @@
+
+
+@media only screen and (min-width: 280px ) {
+
+    .banner{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .banner h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .logo{
+        width: 145px;
+    }
+
+    .project-creator h3{
+        font-size: 16px;
+    }
+
+    .small-star{
+        max-width: 15px;
+        right: 8px;
+        top: -5px 
+    }
+
+    .banner .star-gradient{
+        width: 145px;
+        top: 10%;
+        left: -10%;
+    }
+
+    .featured-projects h2{
+        display: none;
+    }
+
+    .featured-projects hr{
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .projects img {
+        padding: 0 10%;
+        max-width: 100%;
+    }
+
+    .view-more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        margin: -20px auto;
+        padding-bottom: 10%;
+    }
+
+    .viewmore h2 a{
+        font-size: 16px;
+        top: 10%
+    }
+
+    .project-creator h3{
+        padding: revert;
+        margin: 10px;
+        text-align: center;
+        line-height: 1.2;
+
+    }
+
+    .project-creator a{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 360px ) {
+
+    .banner{
+        margin-top: 10%;
+        // margin: 0px -15px;
+    }
+
+    .banner h2{
+        font-size: 24px;
+        text-align: left;
+        padding: 0 24px;
+    }
+
+    .logo{
+        width: 160px;
+    }
+
+    .project-creator h3{
+        font-size: 20px;
+    }
+
+    .small-star{
+        max-width: 20px;
+        right: 8px;
+        top: -5px 
+    }
+    
+    .banner .star-gradient{
+        width: 185px;
+        top: 11%;
+        left: -10%;
+    }
+
+    .featured-projects h2{
+        display: none;
+    }
+
+    .featured-projects hr{
+        width: 100%;
+    }
+
+    .projects img {
+        padding: 0 10%;
+    }
+
+    .view-more{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        margin: -20px auto;
+        padding-bottom: 10%;
+    }
+
+    .viewmore h2 a{
+        font-size: 20px;
+        top: 10%
+    }
+
+    .project-creator h3{
+        padding: revert;
+        margin: 20px;
+        text-align: center;
+        line-height: 1.2;
+
+    }
+
+    .project-creator a{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .banner{
+        margin-top: 10%;
+    }
+
+    .banner h2{
+        font-size: 28px;
+    }
+
+    .banner .star-gradient{
+        width: 200px;
+    }
+
+    .logo{
+        width: 200px;
+    }
+
+    .project-creator h3{
+        margin: 35px;
+        font-size: 24px;
+    }
+    
+    .project-creator a{
+        font-size: 24px;
+    }
+
+    .viewmore h2 a{
+        font-size: 28px ;
+    }
+
+    
+}
+
+@media only screen and (min-width: 620px) {
+
+    .banner h2{
+        font-size: 36px;
+        padding: 0 32px;
+    }
+
+    .banner .star-gradient{
+        width: 230px;
+        top: 15%;
+    }
+
+    .logo{
+        width: 230px;
+    }
+
+    .project-creator h3{
+        padding: 0 40px;
+        font-size: 26px;
+    }
+    
+    .project-creator a{
+        font-size: 26px;
+    }
+
+    .viewmore{
+        font-size: 24px;
+
+    }
+
+    .viewmore h2 a{
+        font-size: 32px ;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .banner h2{
+        font-size: 42px;
+        margin-top: -5%;
+        text-align: center;
+    }
+
+    .banner .star-gradient{
+        width: 325px;
+        top: 22%;
+        left: -7%;
+    }
+
+
+    .small-star{
+        max-width: 32px;
+        right: 15px;
+        top: -5px;
+        z-index: -1;
+    }
+
+    .view-more{
+        margin-top: 3%;
+        padding-bottom: 5%;
+    }
+
+    .view-more h2 a{
+        font-size: 40px;
+    }
+
+    .project-creator{
+        padding: 0 5%;
+    }
+
+    .project-creator a{
+        font-size: 32px;
+    }
+
+    .project-creator h3{
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (min-width: 834px) {
+    .banner h2{
+        font-size: 44px;
+        padding: 0 5px;
+    }
+
+    .banner .star-gradient{
+        width: 350px;
+        top: 24%;
+        left: -7%;
+    }
+
+    .banner {
+        padding: 0 7%;
+    }
+
+    .small-star{
+        max-width: 32px;
+        right: 15px;
+        top: -5px;
+        z-index: -1;
+    }
+
+}
+
+@media only screen and (min-width: 1024px){
+    .banner h2 {
+        font-size: 58px;
+    }
+
+    .banner .star-gradient{
+        width: 370px;
+        top: 19%;
+        left: -7%;
+    }
+
+    .small-star{
+        top: -25px;
+        right: 25px;
+    }
+
+    .view-more h2 a{
+        font-size: 52px;
+    }
+
+    .project-creator h3{
+        font-size: 42px;
+        padding: 0 50px;
+    }
+
+    .project-creator h3 a{
+        font-size: 42px;
+    }
+
+    .featured-projects h2{
+        display: block;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .banner h2 {
+        font-size: 64px;
+        padding: 0 5%;
+    }
+
+    .banner .star-gradient{
+        width: 450px;
+        top: 33%;
+        left: -7%;
+    }
+
+    .view-more h2 a{
+        font-size: 42px;
+    }
+
+    .project-creator h3{
+        font-size: 42px;
+        padding: 0 110px;
+    }
+
+    .project-creator h3 a{
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .banner h2 {
+        font-size: 80px;
+        padding: 0;
+    }
+
+    .banner .star-gradient{
+        width: 500px;
+        top: 35%;
+        left: -5%;
+    }
+
+}
+
+@media only screen and (min-width: 1920px){
+
+    .featured-projects h2{
+        font-size: 52px;
+    }
+
+    .banner{
+        padding: 0 5%;
+        margin: 135px 0;
+    }
+
+    .banner h2 {
+        font-size: 108px;
+    }
+
+    .projects img{
+        width: 1500px;
+    }
+
+    .banner .star-gradient{
+        width: 620px;
+    }
+
+    .small-star{
+        max-width: 55px;
+    }
+
+    .project-creator h3{
+        font-size: 42px;
+        padding: 0 470px;
+    }
+
+    .project-creator h3 a{
+        font-size:42px ;
+    }
+
+}
+
+

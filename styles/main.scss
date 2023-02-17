@@ -1,0 +1,15 @@
+//Used partials to organize further my css code.
+
+// the styling of the button that uses jump.js is located in "pages/artifacts"
+//the script that executes jump.js is located below the footer in each html page file.
+@use "pages/artifacts";
+@use "pages/about";
+@use "pages/projects";
+@use "pages/index";
+@use "components/hover";
+@use "components/header";
+@use "components/footer";
+@use "components/button-top";
+@use "components/media-query";
+@use "components/burger-menu";
+@use "components/line";

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcase portfolio designed and built by Renzrick Endaya to express my personal works and designs.
+    ">
+    <meta name="keywords" content="Renzrick Endaya, Renzrick, portfolio, design, UIUX, graphic design, projects, prototype, 3D compositing, Vancouver, BC,">
+    <meta name="author" content="Renzrick Endaya">
+    <title>renzrick* &mdash; Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="images/renzrick-logo.svg" alt="renzrick logo"><a href="index.html"></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="banner-container">
+            <div class="banner">
+                <img class="star-gradient" src="images/star-gradient.svg" alt="Green Gradient Star">
+                <h2>A multi-disciplinary artist whose focuses are graphic design, web development, video production, audio engineering and digital art. <span><img class="small-star" src="images/star-black.svg" alt="Black Star"></span></h2>
+            </div>
+        </div>
+
+        <div id="galleryCarousel">
+            <h4><span>Featured Projects</span></h4>
+        </div>
+        
+        <!-- Projects Section -->        
+        <div class="projects-section">
+            <a href="arcteryx-composition.html">
+                <div class="projects">
+                    <img src="images/project-ghost.png" alt="Arc'teryx Composition"/>
+                    <div class="caption">
+                        <h3>Arc’teryx “Ghost Mannequin” Composition <hr class="project-line"> <span>Graphic Design, Photography</span></h3>
+                    </div>
+                </div>
+            </a>
+            
+              <a href="elevate.html">
+                <div class="projects">
+                <img src="images/project-elevate.png" alt="Elevate Skin Care Product Poster"/>
+                <div class="caption">
+                    <h3>“Elevate” Skin Care Product Poster <hr class="project-line"><span>Graphic Design</span></h3>
+                </div>
+                </div>
+              </a>
+            
+              <a href="next.html">
+                <div class="projects">
+                <img src="images/project-next.png" alt="NEXT Desktop Prototype"/>
+                <div class="caption">
+                    <h3>"NEXT" Website Prototype <hr class="project-line"><span>UI/UX, Graphic Design</span></h3>
+                </div>
+                </div>
+              </a>
+        </div>
+        
+        <div id="galleryCarousel">
+            <a href="projects.html">
+                <h4><span>View More Projects</span></h4>
+            </a>
+        </div>
+        
+        <div class="project-section">
+            <div class="project-creator">
+                <h3>All projects listed are created by <a href="about.html">Renzrick Endaya</a>. He strives to create a door for myself in the competitive world of New Media and wants to be known as an individual who is a reliable and great creative source for all aspects within the playing field.</h3>
+            </div>
+        </div>
+
+
+
+    <div><a href="#" class="button-top">^</a></div>
+
+    </main>
+    <footer class="ftr" id="footer">
+        <div class="before-ftr">
+            <div class="ftr-line"></div>
+            <div class="get-in-touch">
+                <h3>get in touch<span><img class="small-star ftr-small-star" src="images/star-black.svg" alt="Black Star"></span></h3>
+            </div>
+        </div>
+        <div class="ftr-container">
+            <div class="ftr-logo">
+                <img src="images/renzrick-logo.svg" alt="renzrick logo"><a href="index.html"></a>
+            </div>
+            <div class="ftr-link-container business-inquiries follow-me">
+                <div class="ftr-business">
+                    <h4>business inquiries</h4>
+                    <ul class="ftr-links">
+                        <li><a href="mailto: renzrick33@gmail.com">renzrick33@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="ftr-follow">
+                    <h4>follow me</h4>
+                    <ul class="ftr-links">
+                        <li><a target="_blank" href="https://www.instagram.com/renzrick/">instagram</a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/renzrick-endaya/">linkedin</a></li>
+                    </ul>
+                </div>
+                    
+            </div>
+        </div>
+        <div class="copy">
+            <p>
+                &copy; Renzrick Endaya 2023
+            </p>
+        </div>
+    </footer>
+    </div>
+    <script type="module">
+        import jump from "./node_modules/jump.js/dist/jump.module.js";
+        let topButton = document.querySelector('.button-top');
+        topButton.addEventListener('click', ()=>{
+            jump('header');
+        });
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            // topButton.style.display = "block";
+            topButton.style.opacity = "1";
+        } else {
+            // topButton.style.display = "none";
+            topButton.style.opacity = "0";
+        }
+        }
+
+
+        var snippet = [].slice.call(document.querySelectorAll(".hover"));
+        if (snippet.length) {
+        snippet.forEach(function (snippet) {
+            snippet.addEventListener("mouseout", function (event) {
+            if (event.target.parentNode.tagName === "figure") {
+                event.target.parentNode.classList.remove("hover");
+            } else {
+                event.target.parentNode.classList.remove("hover");
+            }
+            });
+        });
+        }
+
+
+    </script>
+    <script src="scripts/burger-menu.js"></script>
+</body>
+</html>

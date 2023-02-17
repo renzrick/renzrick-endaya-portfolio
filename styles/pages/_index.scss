@@ -1,0 +1,176 @@
+@use "../config/" as *;
+
+// Sass variable is in config folder, variable was applied to the primary colour of my portfolio.
+// The concept of nesting was applied to my banner elements in line 89 of this _index.scss file.
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Questrial', sans-serif;
+    background-color: #f7f7f7;
+
+}
+
+
+
+
+.featured-projects{
+
+    width: 63.1vw;
+    max-width: 100%;
+    margin: 0 auto;
+
+    hr{
+        border: 1px solid rgb(163, 163, 163);
+    }
+
+    h2{
+        font-size: 36px;
+        font-weight: 300;
+    }
+
+}
+
+.featured-title{
+    margin-top: 5%;
+}
+
+
+
+
+
+/* ============BANNER=================== */
+.banner-container{
+    max-width: 100%;
+    height: auto;
+
+}
+
+// Sass nesting feature applied to the banner elements within my portfolio.
+.banner{
+    
+    
+    h2{
+        font-size: 84px;
+        font-weight: 300;
+        text-align: left;
+        line-height: 1.2;
+        margin: 7% 8.5%;
+        z-index: 1;
+        font-family: 'Questrial', sans-serif;
+    }
+
+    h3{
+    font-size: 36px;
+    padding: 30px 2%;
+    margin: -10% 8%;
+    }
+
+    .star-gradient{
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    max-width: 820px;
+    height: auto;
+    left: -12%;
+    }
+
+}
+
+
+.small-star{
+    height: auto;
+    position: relative;
+    right: 15px;
+    top: -15px;
+    z-index: -1;
+}
+
+/* ==============main==================== */
+// main{
+//     min-height: 100vh;
+// }
+
+/* ============ARTICLES IN HOME PAGE=================== */
+
+.project{
+    display: flex;
+    justify-content: center;
+}
+
+.project-text h3{
+    font-size: 36px;
+    padding: 15px 0;
+}
+
+.project-text a{
+    font-size: 32px;
+
+}
+
+.project-text{
+    width: 550px;
+
+}
+
+.project-section{
+    margin: 0 auto;
+    // padding-bottom: 20px;
+    // align-items: center;
+    // justify-content: space-around;
+}
+
+.project-creator{
+    max-width: 100%;
+}
+
+.project-creator a{
+    // padding-left: 45%;
+    font-size: 32px;
+    color: #416e34;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.project-creator h3{
+    font-size: 36px;
+    padding: 0 26%;
+    margin: 30px;
+    font-weight: 300;
+}
+
+.view-more{
+    width: 63.1vw;
+    max-width: 63.1vw;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.viewmore h2 a{
+    color:#416e34;
+    text-decoration: none;
+}
+
+.viewmore h2{
+    font-size: 36px;
+    text-align: end;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* ==================FOOTER=================== */
+
+
+
+/* media queries */
+
+

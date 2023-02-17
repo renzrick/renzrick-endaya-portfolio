@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcase portfolio designed and built by Renzrick Endaya to express my personal works and designs.
+    ">
+    <meta name="keywords" content="Renzrick Endaya, Renzrick, about, portfolio, design, UIUX, graphic design, projects, prototype, 3D compositing, Vancouver, BC,">
+    <meta name="author" content="Renzrick Endaya">
+    <title>renzrick* &mdash; About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="images/renzrick-logo.svg" alt="renzrick logo"><a href="#"></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a class="is-green" href="about.html" class="is-green nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#footer" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+
+   <main class="about">
+    <h1 class="abt-title">About Me</h1>
+    
+    <div class="about-section">
+        <div class="about-container">
+            <div class="about-left-col">
+                <img class="about-img" src="images/renzrick-photo.png" alt="Portrait of Renzrick Endaya">
+                <div class="name-caption">
+                    <h3>Renzrick Endaya</h3>
+                    <p>Multi-disciplinary artist</p>
+                </div>
+            </div>
+            <div class="about-text">
+                <p><strong style="font-weight: 700;">“I want to be able to create connections worldwide through my industry work as well as my personal designs within the New Media field.”</strong><br><br></p>
+                <p style="font-weight: 300;">Aside from his passion for graphic design, Renzrick also takes interest in both the fashion and music industries. The creativity shown within the two also sparks his imagination as a whole. To add onto his infatuation with music, Renzrick is also a self-taught music producer, however, he has not released many compositions onto streaming platforms as of right now – but he is currently in the midst of creating a collection of songs that can be hopefully released in the near future!<br><br></p>
+                <p style="font-weight:300 ">Renzrick is currently studying in BCIT’s New Media and Web Development program, located in Vancouver, BC.</p>
+            </div>
+        </div>
+    </div>
+
+    <div><a href="#" class="button-top">^</a></div>
+
+    </main>
+    <footer class="ftr" id="footer">
+        <div class="before-ftr">
+            <div class="ftr-line"></div>
+            <div class="get-in-touch">
+                <h3>get in touch<span><img class="small-star ftr-small-star" src="images/star-black.svg" alt="Black Star"></span></h3>
+            </div>
+        </div>
+        <div class="ftr-container">
+            <div class="ftr-logo">
+                <img src="images/renzrick-logo.svg" alt="renzrick logo"><a href="index.html"></a>
+            </div>
+            <div class="ftr-link-container business-inquiries follow-me">
+                <div class="ftr-business">
+                    <h4>business inquiries</h4>
+                    <ul class="ftr-links">
+                        <li><a href="mailto: renzrick33@gmail.com">renzrick33@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="ftr-follow">
+                    <h4>follow me</h4>
+                    <ul class="ftr-links">
+                        <li><a target="_blank" href="https://www.instagram.com/renzrick/">instagram</a></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/in/renzrick-endaya/">linkedin</a></li>
+                    </ul>
+                </div>
+                    
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <p>
+            &copy; Renzrick Endaya 2023
+        </p>
+    </div>
+    <script type="module">
+        import jump from "./node_modules/jump.js/dist/jump.module.js";
+        let topButton = document.querySelector('.button-top');
+        topButton.addEventListener('click', ()=>{
+            jump('header');
+        });
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            // topButton.style.display = "block";
+            topButton.style.opacity = "1";
+        } else {
+            // topButton.style.display = "none";
+            topButton.style.opacity = "0";
+        }
+        }
+
+    </script>
+    <script src="scripts/burger-menu.js"></script>
+</body>
+</html>
